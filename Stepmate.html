@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepmate</title>
+    <link href="output.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+<body class="font-afacad bg-Neutral-1 max-w-[1280px] mx-auto">
+    <div class="flex flex-col gap-3">
+        <div class="flex flex-row px-20 py-16 h-[30px] justify-between items-center">
+            <div class="flex flex-row items-center gap-8">
+                <img src="images/1.jpg" class="h-14 w-14 object-cover">
+                <div class="text-Neutral-12 text-W-H6">Phuong Mai</div>
+            </div>
+            <div class="hidden md:flex flex-row gap-10">
+                <div class="text-Neutral-12 text-W-H6">About</div>
+                <div class="text-Neutral-12 text-W-H6">Work</div>
+                <div class="text-Neutral-12 text-W-H6">Contact</div>
+            </div>
+            <button id="menu-button" class="md:hidden text-Neutral-12 text-2xl">
+            ☰
+        </button>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-Neutral-12 w-full gap-4 py-8">
+                <div class=" items-start w-[340px] gap-4">
+                    <div class="sm:text-M-H2 md:text-W-H1 text-Neutral-1">Stepmate</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 italic text-Neutral-6">/App/</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-6">Stepmate is a walking companion app that encourages users to stay active by matching them with people to walk together.</div>
+                </div>
+                <div class=" items-start w-[340px] gap-4">
+                    <div class="border border-t border-Neutral-7"></div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-6">Font family</div>
+                    <div class="text-Neutral-8">Mitr</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-7">AĂÂBCDĐEÊGHIKLMNOÔƠPQRSTUƯVXY
+                        aăâbcdđeêghiklmnoôơpqrstuưvxy</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-7">0123456789</div>
+                </div>
+        </div>
+        <div class="flex sm:flex-col md:flex-row sm:gap-8 md:gap-24 sm:px-6 md:px-20 py-8">
+            <div class="flex flex-col gap-4">
+                <div>
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Context</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">In the digital age, people are becoming increasingly sedentary due to office work, prolonged computer use, mobile entertainment, and a lack of daily movement. Although many health apps are available, most focus primarily on tracking metrics such as step count and calories burned, while lacking features that effectively motivate users to build and maintain long-term walking habits.</div>
+                </div>
+                <img src="images/Stepmate home.png" class="sm:w-full md:w-[380px] object-cover">
+            </div>
+            <div class="flex flex-col gap-8">
+                <img src="images/Stepmate meet step.png" class="sm:w-[100px] md:w-[100px] object-cover">
+                <div class="flex flex-col gap-2">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Problem</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">How might we help users stay motivated and maintain a consistent walking habit without giving up halfway?</div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Solution</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">A walking app that tracks users steps and allows them to share progress with friends. It features daily and weekly step leaderboards, group challenges, shared streaks to stay motivated together, and most importantly, a matching feature that connects users with new walking companions.</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col sm:text-M-H2 md:text-W-H1 sm:px-6 md:px-20 py-4">User Research</div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 sm:px-6 md:px-20 py-2">
+            <div class="sm:row-span-1">
+                <div class="flex flex-col gap-4">
+                <div class="flex flex-col">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">User segments</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Gen Z văn phòng, thường hay quên vận động</div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Pain points</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Do ngồi làm việc 8-10 tiếng/ngày, nên thường hay quên vận động</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Không nhận ra mình ngồi quá lâu, ít vận động</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Không có động lực tập luyện</div>
+                </div>
+                <img src="images/Stepmate meet step_.png" class="sm:w-full md:w-[380px] object-cover">
+                </div>
+            </div>
+            <div class="sm:row-span-1 gap-4">
+                <div class="flex flex-col gap-4">
+                <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">User Persona</div>
+                <div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Tên: D</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Giới tính: Nữ</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Tuổi: 23</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Nghề nghiệp: Chăm sóc khách hàng</div>
+                </div>
+                    <div>
+                        <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Pain point</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Cảm thấy bản thân cần giảm cân nhưng không muốn tập nặng</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Trước đây do bài tập không phù hợp, khiến bản thân chán nản bỏ tập luyện</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Không dùng qua app khác vì cảm thấy có quá nhiều app, không biết nên chọn app nào</div>
+                    </div>
+                    <div>
+                        <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Goals</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Không nhận ra mình ngồi quá lâu, ít vận động</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Không có động lực tập luyện</div>
+                    </div>
+                    <div>
+                        <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Behaviors</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Có thói quen đi bộ từ nhỏ</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Từng dùng qua 1 app nhưng chỉ duy trì được 1 tuần</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Ban ngày đi làm chỉ ngồi suốt làm việc trên máy tính, còn ngày nghỉ không có thói quen vận động, chỉ đi bộ vào buổi chiều để tập luyện nhẹ</div>
+                        <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Muốn chia sẻ hoạt động lên mạng xã hội như up locked, story facebook,...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gap-4 sm:px-6 md:px-20 sm:py-4 md:py-8">
+            <div class="sm:text-M-H2 md:text-W-H4 text-Neutral-12">Problem statement</div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex flex-col">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">User</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">User độ tuổi từ 20 - 30 tuổi, Có thói quen quên vận động do làm việc máy tính quá lâu</div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Need</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Cần app có thể tạo động lực để duy trì thói quen và tính năng chia sẻ đến bạn bè</div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="sm:text-M-H3 md:text-W-H5 text-Neutral-12">Why</div>
+                    <div class="sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-12">Dễ bỏ cuộc và không có thói quen tập luyện nặng</div>
+                </div>
+            </div>
+        </div>
+        <img src="images/Meet step feature.png" class="w-fullobject-cover">
+        <div class="flex flex-col gap-4 sm:px-6 md:px-20 sm:py-4 md:py-8">
+            <div class="sm:text-M-H2 md:text-W-H1 text-Neutral-12">Look into the app</div>
+            <div class="grid grid-cols-1 justify-items-center md:grid-cols-4 gap-8">
+                <img src="images/stepmate look into.png" class="">
+                <img src="images/Meet step - Mate suggestion.png" class="">
+                <img src="images/Meet step - Match.png" class="">
+                <img src="images/Meet step - walk 1.png" class="">
+            </div>
+        </div>
+        
+    </div>
+</body>
+<footer class="bg-Neutral-3 px-20 py-14">
+    <div class="flex sm:flex-col md:flex-row justify-between gap-8 ">
+        <div class="flex flex-col gap-8">
+            <div>
+                <div class="sm:text-M-H4 md:text-W-H4 text-Neutral-12">Phuong Mai</div>
+                <div class="mt-2 sm:text-M-Pa2 md:text-W-Pa2 text-Neutral-10 max-w-md italic">
+                    Thanks for visiting my portfolio. If you'd like to
+                    collaborate or simply say hello, I'd love to hear from you.
+                </div>
+            </div>
+            <p class="sm:text-M-note md:text-W-note text-Neutral-9">
+                © 2026 Designed & Developed by Phuong Mai.
+            </p>
+        </div>
+        <div class="flex items-end sm:justify-between md:gap-10">
+            <div class="flex flex-col gap-4">
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="sm:text-M-H4 md:text-W-H6">Let's Connect</h3>
+                <p>0963 0966 28</p>
+                <p>phuongmai463@gmail.com</p>
+                <p>Ho Chi Minh City, Vietnam</p>
+             </div>
+        </div>
+    </div>
+</footer>
+</html>
