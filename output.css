@@ -554,87 +554,13 @@ video {
   display: none;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
-.fixed {
-  position: fixed;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.-bottom-\[1000px\] {
-  bottom: -1000px;
-}
-
-.-right-\[110px\] {
-  right: -110px;
-}
-
-.-top-\[110px\] {
-  top: -110px;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .flex {
@@ -649,46 +575,12 @@ video {
   display: none;
 }
 
-.size-\[740px\] {
-  width: 740px;
-  height: 740px;
-}
-
-.size-full {
-  width: 100%;
-  height: 100%;
-}
-
-.h-0\.5 {
-  height: 0.125rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
 .h-14 {
   height: 3.5rem;
 }
 
-.h-\[1200px\] {
-  height: 1200px;
-}
-
 .h-\[30px\] {
   height: 30px;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
-.h-\[862px\] {
-  height: 862px;
-}
-
-.h-\[866px\] {
-  height: 866px;
 }
 
 .h-full {
@@ -697,18 +589,6 @@ video {
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
-}
-
-.w-\[1200px\] {
-  width: 1200px;
-}
-
-.w-\[215px\] {
-  width: 215px;
 }
 
 .w-\[300px\] {
@@ -759,10 +639,6 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -783,16 +659,8 @@ video {
   gap: 0.5rem;
 }
 
-.gap-2\.5 {
-  gap: 0.625rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-3\.5 {
-  gap: 0.875rem;
 }
 
 .gap-4 {
@@ -813,10 +681,6 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded-lg {
@@ -869,11 +733,6 @@ video {
   background-color: rgb(124 126 135 / var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -908,21 +767,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -933,24 +777,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .font-afacad {
@@ -972,10 +800,6 @@ video {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .italic {
@@ -1022,33 +846,12 @@ video {
   color: rgb(124 126 135 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 .hover\:bg-Neutral-10:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(92 93 102 / var(--tw-bg-opacity, 1));
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:row-span-1 {
     grid-row: span 1 / span 1;
   }
@@ -1079,14 +882,6 @@ html {
 
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
@@ -1187,22 +982,6 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:row-span-1 {
-    grid-row: span 1 / span 1;
-  }
-
-  .md\:row-span-2 {
-    grid-row: span 2 / span 2;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -1273,10 +1052,6 @@ html {
 
   .md\:gap-4 {
     gap: 1rem;
-  }
-
-  .md\:gap-7 {
-    gap: 1.75rem;
   }
 
   .md\:gap-8 {
@@ -1363,3 +1138,4 @@ html {
     font-weight: 700;
   }
 }
+
